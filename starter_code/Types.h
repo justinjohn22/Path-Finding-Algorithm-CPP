@@ -9,7 +9,9 @@
 
 // A 2D array to represent the environment or observations
 // REMEMBER: in a environment, the location (x,y) is found by maze[y][x]!
-typedef char Env[ENV_DIM][ENV_DIM];
+//typedef char Env[ENV_DIM][ENV_DIM];
+
+typedef char** Env;
 
 #define SYMBOL_WALL     '='
 #define SYMBOL_EMPTY    '.'
