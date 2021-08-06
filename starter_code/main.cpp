@@ -1,31 +1,3 @@
-/*
- * The approach I took was to follow the psuedocode directly.
- * I planned to make a brute force algorithm and then to 
- * optimise it once I know that the algorithm is working.
- * I also took the time to draw diagrams as well as do desk
- * checks when completing this assignment, especially for 
- * milestone 4.
- *  
- * the main issue I encountered was memeory allocation and 
- * deallocation, this was a new concept to me working with a 
- * project as big as this. I also had to spend a lot of time
- * trying to fix segmentation fault. Overall it was a good
- * experience learning about these new concepts and 
- * having to really spent time debugging code. I wish I had 
- * more time to remove code duplication in one part of my 
- * code.
- * 
- * MileStone 3: Was a lot easier than milestone 2, 
- * in the video, it again asked to check for open spaces 
- * from current node, i felt like this was unnecessary 
- * as everything on the closed list would already have to 
- * be on an open space.
- * 
- * MileStone 4: Was the hardest out of the 4, I spent a lot 
- * of time trying different things to get the env into the 
- * program. I eventually ended up finding a logic using an
- * input stream. I was really excited when it worked!!
- */
 #include <iostream>
 #include <fstream>
 #include <stdexcept>
